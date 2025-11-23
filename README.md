@@ -77,7 +77,7 @@ CREATE TABLE transactions (
     fee DOUBLE,
     sender_id VARCHAR(50),
     receiver_id VARCHAR(50),
-    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
 
